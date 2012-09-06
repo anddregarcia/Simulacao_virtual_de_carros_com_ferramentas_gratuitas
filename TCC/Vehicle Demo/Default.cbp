@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Default" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\Default" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin\Debug" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="$(OGRE_HOME)\include" />
+					<Add directory="$(OGRE_HOME)\boost_1_44" />
+					<Add directory="$(OB_HOME)\Dynamics\include" />
+					<Add directory="$(OB_HOME)\Collisions\include" />
+					<Add directory="$(BULLET_HOME)\src" />
+					<Add directory="$(OGRE_HOME)\include\OGRE" />
+					<Add directory="$(OGRE_HOME)\include\OIS" />
+				</Compiler>
+				<Linker>
+					<Add library="OgreMain_d" />
+					<Add library="OIS_d" />
+					<Add library="OgreBulletDynamics_d" />
+					<Add library="OgreBulletCollisions_d" />
+					<Add library="BulletDynamics" />
+					<Add library="BulletCollision" />
+					<Add library="C:\dev\Bullet-Build\lib\libConvexDecomposition.a" />
+					<Add library="LinearMath" />
+					<Add directory="$(OGRE_HOME)\bin\Debug" />
+					<Add directory="$(OB_HOME)\lib\Debug Win32" />
+					<Add directory="$(BULLET_HOME)\lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\Default" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Application.cpp" />
+		<Unit filename="Application.h" />
+		<Unit filename="Environment.cpp" />
+		<Unit filename="Environment.h" />
+		<Unit filename="ExampleApplication.h" />
+		<Unit filename="InputListener.cpp" />
+		<Unit filename="InputListener.h" />
+		<Unit filename="Vehicle.cpp" />
+		<Unit filename="Vehicle.h" />
+		<Unit filename="World.cpp" />
+		<Unit filename="World.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

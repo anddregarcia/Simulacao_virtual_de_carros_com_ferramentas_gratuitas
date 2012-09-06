@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="Application.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="4892" topLine="155" />
+	</File>
+	<File name="Application.h" open="0" top="0" tabpos="7">
+		<Cursor position="1101" topLine="0" />
+	</File>
+	<File name="Environment.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="1364" topLine="39" />
+	</File>
+	<File name="Environment.h" open="0" top="0" tabpos="1">
+		<Cursor position="472" topLine="3" />
+	</File>
+	<File name="ExampleApplication.h" open="0" top="0" tabpos="2">
+		<Cursor position="969" topLine="0" />
+	</File>
+	<File name="InputListener.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="4522" topLine="102" />
+	</File>
+	<File name="InputListener.h" open="0" top="0" tabpos="2">
+		<Cursor position="3775" topLine="107" />
+	</File>
+	<File name="Vehicle.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="7962" topLine="121" />
+	</File>
+	<File name="Vehicle.h" open="0" top="0" tabpos="3">
+		<Cursor position="1238" topLine="27" />
+	</File>
+	<File name="World.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="8655" topLine="322" />
+	</File>
+	<File name="World.h" open="1" top="1" tabpos="3">
+		<Cursor position="1534" topLine="47" />
+	</File>
+	<File name="main.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="753" topLine="30" />
+	</File>
+</CodeBlocks_layout_file>
